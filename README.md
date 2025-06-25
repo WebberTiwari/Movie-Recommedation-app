@@ -44,13 +44,33 @@ A machine learning-powered Movie Recommendation Web App that suggests similar mo
 
 ```bash
 # Clone the repository
-git clone https://github.com/priyanshutiwari7/movie-recommender-ml.git
+git clone https://github.com/WebberTiwari/movie_recommender_ML.git
 
 # Navigate to the project directory
-cd movie-recommender-ml
+cd movie_recommender_ML
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
+
+📂 Folder Structure
+movie-recommender-ml/
+│
+├── app.py                 # Main Streamlit app
+├── movies.pkl             # Preprocessed movie data
+├── model.pkl              # Cosine similarity matrix
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation
+
+## 💡 What I Learned
+
+- Gained hands-on experience with how real-world **recommender systems** work under the hood.
+- Understood and applied **TF-IDF vectorization** and **cosine similarity** for content-based filtering.
+- Practiced **feature engineering** using text data (title, genres, keywords, cast, crew).
+- Learned how to build interactive ML-based web apps using **Streamlit**.
+- Took the project from **backend ML logic to frontend UI**, covering the full ML workflow.
+
+Priyanshu Tiwari
+📍 3rd Year B.Tech (Electrical), NIT Silchar
