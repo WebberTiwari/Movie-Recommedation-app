@@ -54,6 +54,7 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
+```
 
 📂 Folder Structure
 movie-recommender-ml/
@@ -63,6 +64,7 @@ movie-recommender-ml/
 ├── model.pkl              # Cosine similarity matrix
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
+
 
 ## 💡 What I Learned
 
